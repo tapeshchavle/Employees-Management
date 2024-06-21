@@ -63,7 +63,8 @@ public class EmployeesApp {
                     System.out.println("Enter id to be update");
                     int uid=kb.nextInt();
                     System.out.println("Enter name");
-                    String uname=kb.next();
+                    kb.next();   //for buffer clearing
+                    String uname=kb.nextLine();
                     System.out.println("Enter salary");
                     double usal=kb.nextDouble();
                     System.out.println("Enter deptno");
